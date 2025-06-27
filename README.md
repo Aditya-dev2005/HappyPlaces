@@ -1,6 +1,7 @@
 # 📍 HappyPlaces – Location Memory App (Android)
 
-HappyPlaces is an Android application that lets users save, describe, and relive their favorite places with custom images, descriptions, and precise map locations.  
+**HappyPlaces** is an Android application that lets users **save, describe, and relive their favorite locations** using maps, custom photos, and notes — even offline.
+
 > “For travelers, explorers, or memory hoarders — keep every happy place pinned forever.”
 
 ---
@@ -8,32 +9,32 @@ HappyPlaces is an Android application that lets users save, describe, and relive
 ## 🚀 Features
 
 - 🌍 **Google Maps + Places API** for accurate location tagging  
-- 🖼 **Image Picker & Camera** support  
-- 🧠 **Custom Descriptions & Date Picker**  
+- 🖼 **Image Picker & Camera** support for adding photos  
+- 🧠 **Custom Descriptions & Date Picker** to document memories  
 - 📡 **Current Location** via FusedLocationProvider  
-- 🧠 **AI-Powered Place Suggestions** using ML Kit for smart recommendations  
+- 🧠 *Prototype* of **ML Kit-powered place suggestions** (early-stage experiment)  
 - 🛠 **Local Storage** using SQLite (Room optional)  
-- 🔒 **Dexter Permission Handling**  
-- 💾 **Offline Access** — data saved locally  
+- 🔒 **Dexter Permission Handling** for runtime permissions  
+- 💾 **Offline Access** — data saved locally, no login required  
 
 ---
 
 ## 🧱 Tech Stack
 
-| Layer        | Tech                          |
-|--------------|-------------------------------|
-| Language     | Kotlin                        |
-| UI           | XML layouts                   |
-| Location     | Google Places, Maps, GPS APIs |
-| Image Input  | Camera + Gallery              |
-| Data         | SQLite (via helper class)     |
-| Permissions  | Dexter                        |
+| Layer        | Technology                     |
+|--------------|--------------------------------|
+| Language     | Kotlin                         |
+| UI           | XML layouts                    |
+| Location     | Google Places, Maps, GPS APIs  |
+| Image Input  | Camera + Gallery               |
+| Data         | SQLite (via helper class)      |
+| Permissions  | Dexter                         |
 
 ---
 
 ## 🧪 Screenshots
 
-All the screenshots are added in `/Screenshots` folder
+All screenshots are stored in the `/Screenshots` folder.
 
 ![Location List](Screenshots/img1.jpg)  
 ![Place Details](Screenshots/img2.jpg)  
@@ -46,12 +47,17 @@ All the screenshots are added in `/Screenshots` folder
 
 1. Clone this repository  
    ```bash
-   git clone https://github.com/Aditya-dev2005/HappyPlaces/tree/main
+   git clone https://github.com/Aditya-dev2005/HappyPlaces.git
 Open in Android Studio
 
-Sync Gradle & Run with your API key (google_maps_api.xml)
+Add your Google Maps API key to:
 
-🔮 Future Enhancements
+app/src/main/res/values/google_maps_api.xml
+
+Sync Gradle and Run
+
+
+🔮 Future Enhancements : 
 
 ✅ Jetpack Compose migration
 
@@ -59,6 +65,7 @@ Sync Gradle & Run with your API key (google_maps_api.xml)
 
 ✅ Multi-image support with carousel
 
+🔄 Further enhance ML Kit-based place suggestions
 
 
 👤 Author : 
