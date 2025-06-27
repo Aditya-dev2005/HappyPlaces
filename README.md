@@ -1,8 +1,8 @@
 # 📍 HappyPlaces – Location Memory App (Android)
 
-HappyPlaces is an Android application that lets users save, describe, and relive their favorite places with custom images, descriptions, and precise map locations.
+HappyPlaces is an Android application that lets users save, describe, and relive their favorite places with custom images, descriptions, and precise map locations.  
 > “For travelers, explorers, or memory hoarders — keep every happy place pinned forever.”
-> 
+
 ---
 
 ## 🚀 Features
@@ -11,6 +11,7 @@ HappyPlaces is an Android application that lets users save, describe, and relive
 - 🖼 **Image Picker & Camera** support  
 - 🧠 **Custom Descriptions & Date Picker**  
 - 📡 **Current Location** via FusedLocationProvider  
+- 🧠 **AI-Powered Place Suggestions** using ML Kit for smart recommendations  
 - 🛠 **Local Storage** using SQLite (Room optional)  
 - 🔒 **Dexter Permission Handling**  
 - 💾 **Offline Access** — data saved locally  
@@ -32,14 +33,11 @@ HappyPlaces is an Android application that lets users save, describe, and relive
 
 ## 🧪 Screenshots
 
-All the screenshots are added in /Screenshots folder
+All the screenshots are added in `/Screenshots` folder
 
-![Location List](Screenshots/img1.jpg)
-
-![Place Details](Screenshots/img2.jpg)
-
-![Edit Place](Screenshots/img3.jpg)
-
+![Location List](Screenshots/img1.jpg)  
+![Place Details](Screenshots/img2.jpg)  
+![Edit Place](Screenshots/img3.jpg)  
 ![App Gif](Screenshots/appGif.gif)
 
 ---
@@ -48,10 +46,10 @@ All the screenshots are added in /Screenshots folder
 
 1. Clone this repository  
    ```bash
-   git clone https://github.com/your-username/HappyPlaces.git
+   git clone https://github.com/Aditya-dev2005/HappyPlaces/tree/main
 Open in Android Studio
 
-Sync Gradle & Run with your api key
+Sync Gradle & Run with your API key (google_maps_api.xml)
 
 🔮 Future Enhancements
 
@@ -59,9 +57,9 @@ Sync Gradle & Run with your api key
 
 ✅ Cloud sync with Firebase
 
-✅ AI-based place suggestion using ML Kit
-
 ✅ Multi-image support with carousel
+
+
 
 👤 Author : 
 
