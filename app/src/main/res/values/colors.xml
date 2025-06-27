@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6DB5CA</color>
+    <color name="colorPrimaryLight">#B8D8EO</color>
+    <color name="colorSecondary">#FCF5EF</color>
+    <color name="Orange">#FF03DAC5</color>
+    <color name="teal_700">#FF7235</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+<!--    6DB5CA-->
+<!--    B8D8EO-->
+<!--    FCF5EF-->
+<!--    FF7235-->
+</resources>
