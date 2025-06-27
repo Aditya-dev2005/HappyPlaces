@@ -34,13 +34,13 @@ HappyPlaces is an Android application that lets users save, describe, and relive
 
 All the screenshots are added in /Screenshots folder
 
-[Location List](Screenshots/img1.jpg)
+![Location List](Screenshots/img1.jpg)
 
-[Place Details](Screenshots/img2.jpg)
+![Place Details](Screenshots/img2.jpg)
 
-[Edit Place](Screenshots/img3.jpg)
+![Edit Place](Screenshots/img3.jpg)
 
-[App Gif](Screenshots/appGif.gif)
+![App Gif](Screenshots/appGif.gif)
 
 ---
 
